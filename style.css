@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    margin: 0px;
+    color: rgb(255, 101, 81);
+}
+.btnDiv{
+    display: flex;
+    gap: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 700px;
+    width: 1100px;
+    background-color: rgb(255, 101, 81);
+    
+
+}
+.container-item {
+    background-color: rgb(238, 255, 90);
+    border: 0.2px solid rgb(255, 101, 81);
+    height: 8px;
+    width: 8px;
+}
+
+.rowDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color:rgb(255, 101, 81);
+    border: 0px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3%;
+}
